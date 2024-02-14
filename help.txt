@@ -11,3 +11,7 @@ aws lambda create-function \
   docker push 537650461158.dkr.ecr.us-east-1.amazonaws.com/hello-world:latest
 
   https://docs.aws.amazon.com/lambda/latest/dg/python-image.html
+
+  very important test when you buil first once..
+
+  aws lambda invoke --function-name hello-world response.json
